@@ -1,0 +1,50 @@
+body{
+  background-color:white;
+  font-family:serif;
+}
+.header{
+  width:100%;
+  height:100px;
+  background-color:#232c65;
+}
+.loginLeaf{
+  line-height:50px;
+  width:100%;
+  text-align:left;
+  background-color: #232c65;
+  color:white;
+  margin-top:0;
+  height:50px;
+  font-size:16px;
+}
+.loginContainer {
+  width:30%;
+  margin-top:30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+  border:solid 1px black;
+  padding:0px 0px 10px 0px;
+  background:white;
+}
+label {
+  font-weight:bold;
+}
+button {
+  margin:20px;
+  width:70%;
+  background-color:#232c65;
+  color:white;
+  font-size:16px;
+  border:none;
+  letter-spacing:8px;
+  padding:10px;
+  font-family:serif;
+  text-transform:uppercase;
+}
+input{
+  width:auto;
+}
+input.ng-invalid.ng-touched {
+  border:solid 1px red;
+}
