@@ -9,11 +9,19 @@
     width:100%;
     margin-bottom:150px;
   }
+  .btn-primary{
+    background-color:#993399;
+    border-color:#993399;
+  }
+  .btn-primary:hover{
+    background-color:violet;
+    border-color:violet;
+  }
 </style>
   </head>
   <body>
   <div class="jumbotron-fluid" style="background-color:#993399;">
-    <div class="container">
+    <div class="container-fluid">
     <img src="img_src\login_logo.jpg" id="loginLogo" height="72px" align="left" style="margin-right:20px;">
     <h6 class="text-white">Bharat Heavy Electricals Limited</h2>
     <h7 class="text-white">Heavy Plates and Vessels Plant</h3>
@@ -33,7 +41,7 @@
     <label for="uPassw">Password:</label>
     <input type="password" name="uPassw" placeholder="Enter Password" style="margin:20px;padding:4px 4px;" ng-model="user.pass" ng-required="true">
     <br>
-    <button class="btn text-white " style="margin-bottom:10px;background-color:#993399;border:solid 0.5px black;">Submit</button>
+    <input class="btn btn-primary" type="button" value="Submit" style="margin:10px;">
   </form>
   </div>
   <div class="col"></div>
